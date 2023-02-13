@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %} Edit Medicine {% endblock %} 
+
+{% block content %} 
+<div class="form1">
+    <h1 id="cst_head">Edit Test </h1>
+    
+    {% for edit in editdiag%}
+    <form action="" method="POST">
+        <label for="id">Medicine ID:   </label> {{ edit.tid }} <br><br>
+        
+        <label for="Name">Old Test Name:   </label> {{ edit.tname }} <br><br>
+        <label for="New  Name*">New Test Name*</label>
+        <input type="text" class="text1" id="tname" name="tname" required><br><br>
+        
+        <label for="Old Rate">Old Rate:  </label> {{ edit.tcharge }} <br><br>
+        <label for="New Rate*">New Rate*</label>
+        <input type="number" class="text1" id="tcharge" name="tcharge" min="1" required><br><br>
+       
+        <pre>(*)Fields are compulsary</pre>
+        <button  type="submit" class="ubutton">Update</button>
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p> {{ msg }} </p>
+            {% endfor %}
+        {% endif %}
+    {% endwith%}
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}
