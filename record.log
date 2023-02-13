@@ -1,0 +1,313 @@
+2023-02-13 00:28:04,300:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 00:28:04,300:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 00:28:23,333:INFO:127.0.0.1 - - [13/Feb/2023 00:28:23] "GET / HTTP/1.1" 200 -
+2023-02-13 00:28:26,234:INFO:127.0.0.1 - - [13/Feb/2023 00:28:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:28:26,514:INFO:127.0.0.1 - - [13/Feb/2023 00:28:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-13 00:28:28,291:INFO:127.0.0.1 - - [13/Feb/2023 00:28:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-02-13 00:28:28,419:INFO:127.0.0.1 - - [13/Feb/2023 00:28:28] "GET /home HTTP/1.1" 200 -
+2023-02-13 00:28:28,539:INFO:127.0.0.1 - - [13/Feb/2023 00:28:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:28:32,055:INFO:127.0.0.1 - - [13/Feb/2023 00:28:32] "GET /patientscreen HTTP/1.1" 200 -
+2023-02-13 00:28:32,103:INFO:127.0.0.1 - - [13/Feb/2023 00:28:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:28:35,781:INFO:127.0.0.1 - - [13/Feb/2023 00:28:35] "GET /billing HTTP/1.1" 200 -
+2023-02-13 00:28:35,829:INFO:127.0.0.1 - - [13/Feb/2023 00:28:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:28:39,077:INFO:127.0.0.1 - - [13/Feb/2023 00:28:39] "POST /billing HTTP/1.1" 200 -
+2023-02-13 00:28:39,125:INFO:127.0.0.1 - - [13/Feb/2023 00:28:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:28:41,087:INFO:127.0.0.1 - - [13/Feb/2023 00:28:41] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 00:28:41,127:INFO:127.0.0.1 - - [13/Feb/2023 00:28:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:29:22,900:INFO:127.0.0.1 - - [13/Feb/2023 00:29:22] "GET /addDiagnostics HTTP/1.1" 200 -
+2023-02-13 00:29:22,931:INFO:127.0.0.1 - - [13/Feb/2023 00:29:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:29:24,755:INFO:127.0.0.1 - - [13/Feb/2023 00:29:24] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 00:29:24,811:INFO:127.0.0.1 - - [13/Feb/2023 00:29:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:29:27,202:INFO:127.0.0.1 - - [13/Feb/2023 00:29:27] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 00:29:27,234:INFO:127.0.0.1 - - [13/Feb/2023 00:29:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:29:29,886:INFO:127.0.0.1 - - [13/Feb/2023 00:29:29] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 00:29:29,902:INFO:127.0.0.1 - - [13/Feb/2023 00:29:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:29:38,235:INFO:127.0.0.1 - - [13/Feb/2023 00:29:38] "GET /updatemed HTTP/1.1" 200 -
+2023-02-13 00:29:38,275:INFO:127.0.0.1 - - [13/Feb/2023 00:29:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:46:11,119:INFO:127.0.0.1 - - [13/Feb/2023 00:46:11] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 00:46:11,159:INFO:127.0.0.1 - - [13/Feb/2023 00:46:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:46:13,383:INFO:127.0.0.1 - - [13/Feb/2023 00:46:13] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 00:46:13,431:INFO:127.0.0.1 - - [13/Feb/2023 00:46:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:46:16,533:INFO:127.0.0.1 - - [13/Feb/2023 00:46:16] "POST /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 00:46:16,557:INFO:127.0.0.1 - - [13/Feb/2023 00:46:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:46:20,192:INFO:127.0.0.1 - - [13/Feb/2023 00:46:20] "GET /addDiagnostics HTTP/1.1" 200 -
+2023-02-13 00:46:20,216:INFO:127.0.0.1 - - [13/Feb/2023 00:46:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:46:38,411:INFO:127.0.0.1 - - [13/Feb/2023 00:46:38] "GET /medicinestatus HTTP/1.1" 200 -
+2023-02-13 00:46:38,451:INFO:127.0.0.1 - - [13/Feb/2023 00:46:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:46:46,527:INFO:127.0.0.1 - - [13/Feb/2023 00:46:46] "GET /updatemed HTTP/1.1" 200 -
+2023-02-13 00:46:46,559:INFO:127.0.0.1 - - [13/Feb/2023 00:46:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:50:31,870:INFO:127.0.0.1 - - [13/Feb/2023 00:50:31] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 00:50:31,910:INFO:127.0.0.1 - - [13/Feb/2023 00:50:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:50:58,980:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 00:50:58,980:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 00:51:09,632:INFO:127.0.0.1 - - [13/Feb/2023 00:51:09] "GET / HTTP/1.1" 200 -
+2023-02-13 00:51:12,596:INFO:127.0.0.1 - - [13/Feb/2023 00:51:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:51:14,244:INFO:127.0.0.1 - - [13/Feb/2023 00:51:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-13 00:51:15,916:INFO:127.0.0.1 - - [13/Feb/2023 00:51:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-02-13 00:51:15,956:INFO:127.0.0.1 - - [13/Feb/2023 00:51:15] "GET /home HTTP/1.1" 200 -
+2023-02-13 00:51:16,044:INFO:127.0.0.1 - - [13/Feb/2023 00:51:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 00:51:18,491:INFO:127.0.0.1 - - [13/Feb/2023 00:51:18] "GET /UpdateDiag HTTP/1.1" 200 -
+2023-02-13 00:51:18,539:INFO:127.0.0.1 - - [13/Feb/2023 00:51:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:09:32,529:INFO:127.0.0.1 - - [13/Feb/2023 02:09:32] "GET /addDiagnostics HTTP/1.1" 200 -
+2023-02-13 02:09:32,585:INFO:127.0.0.1 - - [13/Feb/2023 02:09:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:40:48,432:INFO:127.0.0.1 - - [13/Feb/2023 02:40:48] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 02:40:48,478:INFO:127.0.0.1 - - [13/Feb/2023 02:40:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:40:49,902:INFO:127.0.0.1 - - [13/Feb/2023 02:40:49] "GET /UpdateDiag HTTP/1.1" 200 -
+2023-02-13 02:40:49,936:INFO:127.0.0.1 - - [13/Feb/2023 02:40:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:40:52,291:INFO:127.0.0.1 - - [13/Feb/2023 02:40:52] "GET /UpdateDiag HTTP/1.1" 200 -
+2023-02-13 02:40:52,315:INFO:127.0.0.1 - - [13/Feb/2023 02:40:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:45:21,213:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 02:45:21,214:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 02:45:31,952:INFO:127.0.0.1 - - [13/Feb/2023 02:45:31] "GET / HTTP/1.1" 200 -
+2023-02-13 02:45:34,153:INFO:127.0.0.1 - - [13/Feb/2023 02:45:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:45:34,247:INFO:127.0.0.1 - - [13/Feb/2023 02:45:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-13 02:45:36,175:INFO:127.0.0.1 - - [13/Feb/2023 02:45:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-02-13 02:45:36,236:ERROR:Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\routes.py", line 71, in home
+    return render_template('home.html')
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\home.html", line 20, in top-level template code
+    {% include "includes/header.html" %}
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\includes\header.html", line 67, in top-level template code
+    <a href="{{ url_for('UpdateDiag') }}">Update Test</a>
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'UpdateDiag'. Did you mean 'updatediag' instead?
+2023-02-13 02:45:36,282:INFO:127.0.0.1 - - [13/Feb/2023 02:45:36] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2023-02-13 02:45:46,260:INFO:127.0.0.1 - - [13/Feb/2023 02:45:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-02-13 02:45:46,266:ERROR:Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\routes.py", line 71, in home
+    return render_template('home.html')
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\home.html", line 20, in top-level template code
+    {% include "includes/header.html" %}
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\includes\header.html", line 67, in top-level template code
+    <a href="{{ url_for('UpdateDiag') }}">Update Test</a>
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'UpdateDiag'. Did you mean 'updatediag' instead?
+2023-02-13 02:45:46,271:INFO:127.0.0.1 - - [13/Feb/2023 02:45:46] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2023-02-13 02:47:47,102:ERROR:Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\routes.py", line 71, in home
+    return render_template('home.html')
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\home.html", line 20, in top-level template code
+    {% include "includes/header.html" %}
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\includes\header.html", line 67, in top-level template code
+    <a href="{{ url_for('updatediag') }}">Update Test</a>
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'UpdateDiag'. Did you mean 'updatediag' instead?
+2023-02-13 02:47:47,105:INFO:127.0.0.1 - - [13/Feb/2023 02:47:47] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2023-02-13 02:47:47,935:ERROR:Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\routes.py", line 71, in home
+    return render_template('home.html')
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\home.html", line 20, in top-level template code
+    {% include "includes/header.html" %}
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\includes\header.html", line 67, in top-level template code
+    <a href="{{ url_for('updatediag') }}">Update Test</a>
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'UpdateDiag'. Did you mean 'updatediag' instead?
+2023-02-13 02:47:47,937:INFO:127.0.0.1 - - [13/Feb/2023 02:47:47] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2023-02-13 02:47:48,136:ERROR:Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\routes.py", line 71, in home
+    return render_template('home.html')
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\home.html", line 20, in top-level template code
+    {% include "includes/header.html" %}
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\templates\includes\header.html", line 67, in top-level template code
+    <a href="{{ url_for('updatediag') }}">Update Test</a>
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\DELL\OneDrive\Desktop\fyndProject\env\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'UpdateDiag'. Did you mean 'updatediag' instead?
+2023-02-13 02:47:48,138:INFO:127.0.0.1 - - [13/Feb/2023 02:47:48] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2023-02-13 02:48:22,514:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 02:48:22,514:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 02:48:33,242:INFO:127.0.0.1 - - [13/Feb/2023 02:48:33] "[32mGET / HTTP/1.1[0m" 302 -
+2023-02-13 02:48:33,388:INFO:127.0.0.1 - - [13/Feb/2023 02:48:33] "GET /home HTTP/1.1" 200 -
+2023-02-13 02:48:34,222:INFO:127.0.0.1 - - [13/Feb/2023 02:48:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:48:37,421:INFO:127.0.0.1 - - [13/Feb/2023 02:48:37] "GET /updatediag HTTP/1.1" 200 -
+2023-02-13 02:48:37,466:INFO:127.0.0.1 - - [13/Feb/2023 02:48:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:48:39,927:INFO:127.0.0.1 - - [13/Feb/2023 02:48:39] "[33mGET /editdiag/ HTTP/1.1[0m" 404 -
+2023-02-13 02:48:45,923:INFO:127.0.0.1 - - [13/Feb/2023 02:48:45] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 02:48:45,957:INFO:127.0.0.1 - - [13/Feb/2023 02:48:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:48:47,921:INFO:127.0.0.1 - - [13/Feb/2023 02:48:47] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 02:48:47,960:INFO:127.0.0.1 - - [13/Feb/2023 02:48:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:48:50,350:INFO:127.0.0.1 - - [13/Feb/2023 02:48:50] "GET /updatediag HTTP/1.1" 200 -
+2023-02-13 02:48:50,401:INFO:127.0.0.1 - - [13/Feb/2023 02:48:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:51:02,423:INFO:127.0.0.1 - - [13/Feb/2023 02:51:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:51:11,089:INFO:127.0.0.1 - - [13/Feb/2023 02:51:11] "[33mGET /editdiag/ HTTP/1.1[0m" 404 -
+2023-02-13 02:55:31,827:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 02:55:31,828:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 02:55:44,839:INFO:127.0.0.1 - - [13/Feb/2023 02:55:44] "[32mGET / HTTP/1.1[0m" 302 -
+2023-02-13 02:55:44,921:INFO:127.0.0.1 - - [13/Feb/2023 02:55:44] "GET /home HTTP/1.1" 200 -
+2023-02-13 02:55:44,973:INFO:127.0.0.1 - - [13/Feb/2023 02:55:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:55:46,950:INFO:127.0.0.1 - - [13/Feb/2023 02:55:46] "GET /updatediag HTTP/1.1" 200 -
+2023-02-13 02:55:46,980:INFO:127.0.0.1 - - [13/Feb/2023 02:55:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 02:56:03,217:INFO:127.0.0.1 - - [13/Feb/2023 02:56:03] "[33mGET /editdiag/ HTTP/1.1[0m" 404 -
+2023-02-13 03:00:03,317:INFO:127.0.0.1 - - [13/Feb/2023 03:00:03] "GET /updatediag HTTP/1.1" 200 -
+2023-02-13 03:00:03,345:INFO:127.0.0.1 - - [13/Feb/2023 03:00:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:00:30,986:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 03:00:30,987:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 03:00:40,664:INFO:127.0.0.1 - - [13/Feb/2023 03:00:40] "GET / HTTP/1.1" 200 -
+2023-02-13 03:00:42,157:INFO:127.0.0.1 - - [13/Feb/2023 03:00:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:00:42,240:INFO:127.0.0.1 - - [13/Feb/2023 03:00:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-13 03:00:43,915:INFO:127.0.0.1 - - [13/Feb/2023 03:00:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-02-13 03:00:43,956:INFO:127.0.0.1 - - [13/Feb/2023 03:00:43] "GET /home HTTP/1.1" 200 -
+2023-02-13 03:00:44,007:INFO:127.0.0.1 - - [13/Feb/2023 03:00:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:00:45,855:INFO:127.0.0.1 - - [13/Feb/2023 03:00:45] "GET /updatediag HTTP/1.1" 200 -
+2023-02-13 03:00:45,905:INFO:127.0.0.1 - - [13/Feb/2023 03:00:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:00:47,622:INFO:127.0.0.1 - - [13/Feb/2023 03:00:47] "[33mGET /editdiag/1 HTTP/1.1[0m" 404 -
+2023-02-13 03:02:06,340:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 03:02:06,340:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 03:02:20,147:INFO:127.0.0.1 - - [13/Feb/2023 03:02:20] "GET / HTTP/1.1" 200 -
+2023-02-13 03:02:21,500:INFO:127.0.0.1 - - [13/Feb/2023 03:02:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:02:21,751:INFO:127.0.0.1 - - [13/Feb/2023 03:02:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-13 03:02:22,629:INFO:127.0.0.1 - - [13/Feb/2023 03:02:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-02-13 03:02:22,661:INFO:127.0.0.1 - - [13/Feb/2023 03:02:22] "GET /home HTTP/1.1" 200 -
+2023-02-13 03:02:22,713:INFO:127.0.0.1 - - [13/Feb/2023 03:02:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:02:25,045:INFO:127.0.0.1 - - [13/Feb/2023 03:02:25] "GET /updatediag HTTP/1.1" 200 -
+2023-02-13 03:02:25,105:INFO:127.0.0.1 - - [13/Feb/2023 03:02:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:02:26,775:INFO:127.0.0.1 - - [13/Feb/2023 03:02:26] "GET /editDiag/2 HTTP/1.1" 200 -
+2023-02-13 03:02:26,808:INFO:127.0.0.1 - - [13/Feb/2023 03:02:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:02:44,018:INFO:127.0.0.1 - - [13/Feb/2023 03:02:44] "[32mPOST /editDiag/2 HTTP/1.1[0m" 302 -
+2023-02-13 03:02:44,046:INFO:127.0.0.1 - - [13/Feb/2023 03:02:44] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 03:02:44,109:INFO:127.0.0.1 - - [13/Feb/2023 03:02:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:02:45,853:INFO:127.0.0.1 - - [13/Feb/2023 03:02:45] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 03:02:45,904:INFO:127.0.0.1 - - [13/Feb/2023 03:02:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:02:49,601:INFO:127.0.0.1 - - [13/Feb/2023 03:02:49] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 03:02:49,625:INFO:127.0.0.1 - - [13/Feb/2023 03:02:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:05:35,785:INFO:127.0.0.1 - - [13/Feb/2023 03:05:35] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 03:05:35,874:INFO:127.0.0.1 - - [13/Feb/2023 03:05:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:05:38,070:INFO:127.0.0.1 - - [13/Feb/2023 03:05:38] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 03:05:38,101:INFO:127.0.0.1 - - [13/Feb/2023 03:05:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:23:28,334:INFO:127.0.0.1 - - [13/Feb/2023 03:23:28] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 03:23:28,356:INFO:127.0.0.1 - - [13/Feb/2023 03:23:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:29:34,454:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 03:29:34,456:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 03:29:41,115:INFO:127.0.0.1 - - [13/Feb/2023 03:29:41] "[32mGET / HTTP/1.1[0m" 302 -
+2023-02-13 03:29:41,233:INFO:127.0.0.1 - - [13/Feb/2023 03:29:41] "GET /home HTTP/1.1" 200 -
+2023-02-13 03:29:42,510:INFO:127.0.0.1 - - [13/Feb/2023 03:29:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:29:45,339:INFO:127.0.0.1 - - [13/Feb/2023 03:29:45] "GET /DiagnosticsPatientDetails HTTP/1.1" 200 -
+2023-02-13 03:29:45,367:INFO:127.0.0.1 - - [13/Feb/2023 03:29:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:30:50,419:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-02-13 03:30:50,419:INFO:[33mPress CTRL+C to quit[0m
+2023-02-13 03:31:01,720:INFO:127.0.0.1 - - [13/Feb/2023 03:31:01] "[32mGET / HTTP/1.1[0m" 302 -
+2023-02-13 03:31:01,777:INFO:127.0.0.1 - - [13/Feb/2023 03:31:01] "GET /home HTTP/1.1" 200 -
+2023-02-13 03:31:02,494:INFO:127.0.0.1 - - [13/Feb/2023 03:31:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:31:05,915:INFO:127.0.0.1 - - [13/Feb/2023 03:31:05] "GET /deletediag HTTP/1.1" 200 -
+2023-02-13 03:31:05,977:INFO:127.0.0.1 - - [13/Feb/2023 03:31:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-02-13 03:31:08,471:INFO:127.0.0.1 - - [13/Feb/2023 03:31:08] "[32mGET /deletediagdetail/1 HTTP/1.1[0m" 302 -
+2023-02-13 03:31:08,524:INFO:127.0.0.1 - - [13/Feb/2023 03:31:08] "GET /diagnosticsstatus HTTP/1.1" 200 -
+2023-02-13 03:31:08,568:INFO:127.0.0.1 - - [13/Feb/2023 03:31:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
